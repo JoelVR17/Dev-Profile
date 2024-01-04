@@ -46,15 +46,15 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          and Software development. Check out my project and skills
+          I'&apos;m Joel Vargas, a passionate Full Stack Software Engineer
+          dedicated to delivering exceptional project experiences.
         </motion.p>
 
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Check out my Projects
         </motion.a>
       </div>
 
