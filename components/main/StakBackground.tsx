@@ -1,13 +1,21 @@
 "use client";
 
-import React, { useState, useRef, Suspense } from "react";
+// ...
+
+import { RefObject, useRef, Suspense, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial } from "@react-three/drei";
 // @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
+import { GroupProps as ReactThreeFiberGroupProps } from "@react-three/fiber";
+import { Euler } from "three";
+
+interface GroupProps extends ReactThreeFiberGroupProps {
+  rotation?: Euler;
+}
 
 const StakBackground = (props: any) => {
-  const ref: React.MutableRefObject<undefined> = useRef();
+  const ref = useRef<THREE.Group | null>(null);
 
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
@@ -21,14 +29,14 @@ const StakBackground = (props: any) => {
   });
 
   return (
-    <group rotation={[0, 0, Math.PI / 4]} ref={ref}>
+    <group rotation={[0, 0, Math.PI / 4]} ref={ref as RefObject<THREE.Group>}>
       <Points positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
           color="$fff"
           size={0.002}
           sizeAttenuation={true}
-          dethWrite={false}
+          depthWrite={false}
         />
       </Points>
     </group>
