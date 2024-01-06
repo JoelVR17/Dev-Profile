@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-5 sm:px-5 md:px-20 lg:px-20 xl:px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -46,7 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I'&apos;m Joel Vargas, a passionate Full Stack Software Engineer
+          I&apos;m Joel Vargas, a passionate Full Stack Software Engineer
           dedicated to delivering exceptional project experiences.
         </motion.p>
 
