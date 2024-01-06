@@ -36,7 +36,7 @@ const StakBackground = (props: any) => {
 };
 
 const StartsCanvas = () => (
-  <div className="w-full h-auto fixed inset-0 z-[20]">
+  <div className="w-full h-auto absolute inset-0 z-[20]">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StakBackground />

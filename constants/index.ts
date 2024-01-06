@@ -40,13 +40,15 @@ export const Skill_data = [
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
-    Image: "/html.png",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Css",
-    Image: "/css.png",
+    Image:
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg",
     width: 80,
     height: 80,
   },
@@ -118,7 +120,7 @@ export const Backend_skill = [
   {
     skill_name: "PHP",
     Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/php/php-plain.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/php/php-original.svg",
     width: 80,
     height: 80,
   },
@@ -174,7 +176,7 @@ export const Full_stack = [
   {
     skill_name: "Drupal",
     Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/drupal/drupal-plain.svg",
+      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/drupal/drupal-original.svg",
     width: 80,
     height: 80,
   },

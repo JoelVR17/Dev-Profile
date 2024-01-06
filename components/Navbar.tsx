@@ -1,3 +1,5 @@
+"use client";
+
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
@@ -24,7 +26,7 @@ const Navbar = () => {
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center w-full h-auto justify-between border border-[#7042F861] bg-[#0300145E] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
+          <div className="flex items-center w-full h-auto justify-between border border-[#7042F861] bg-[#0300145E] mr-[15px] px-[30px] py-[10px] rounded-full text-gray-200">
             <a href="#about-me" className="cursor-pointer">
               About
             </a>
@@ -48,8 +50,8 @@ const Navbar = () => {
               <Image
                 src={social.src}
                 alt={social.name}
-                width={24}
-                height={24}
+                width={30}
+                height={30}
               />
             </a>
           ))}
