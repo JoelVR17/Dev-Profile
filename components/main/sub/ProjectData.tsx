@@ -48,21 +48,6 @@ const projectsData = [
     urlGithub2: "",
   },
   {
-    src: "/pokedex.png",
-    title: "Pokedex",
-    description: "A digital Pokédex showcasing information about Pokémon.",
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg",
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg",
-      "/js.png",
-    ],
-    link: true,
-    twoRepos: false,
-    url: "https://pokedexjoel.netlify.app/index.html",
-    urlGithub: "https://github.com/JoelVR17/App-Pokemon",
-    urlGithub2: "",
-  },
-  {
     src: "/americanStore.png",
     title: "American Store",
     description:
@@ -79,6 +64,44 @@ const projectsData = [
     url: "https://app.marcoaraya.live",
     urlGithub: "https://github.com/coxmars/Moda-Americana-App",
     urlGithub2: "",
+  },
+
+  {
+    src: "/food-kioks.png",
+    title: "Food Kiosk",
+    description:
+      "An online application to manage the inventory of any store (In Building)",
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postgresql/postgresql-original.svg",
+      "/react.png",
+      "/tailwind.png",
+      "/ts.png",
+      "/next.png",
+    ],
+    link: false,
+    twoRepos: false,
+    url: "",
+    urlGithub: "https://github.com/JoelVR17/Food-Kiosk",
+    urlGithub2: "",
+  },
+  {
+    src: "/hometask.png",
+    title: "Home Task",
+    description:
+      "An online application to manage the projects with their taks. (us: admin, pwd: admin12345)",
+    icons: [
+      "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mongodb/mongodb-original.svg",
+      "/react.png",
+      "/tailwind.png",
+      "/ts.png",
+      "/node-js.png",
+      "/express.png",
+    ],
+    link: true,
+    twoRepos: true,
+    url: "https://home-task-frontend.vercel.app",
+    urlGithub: "https://github.com/JoelVR17/Home-Task-Frontend",
+    urlGithub2: "https://github.com/JoelVR17/Home-Task-Backend",
   },
   {
     src: "/inBuilding.jpeg",
@@ -97,44 +120,6 @@ const projectsData = [
     twoRepos: false,
     url: "",
     urlGithub: "https://github.com/JoelVR17/StockHub",
-    urlGithub2: "",
-  },
-  {
-    src: "/inBuilding.jpeg",
-    title: "InventariX",
-    description:
-      "An online application to manage the inventory of any store (In Building)",
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postgresql/postgresql-original.svg",
-      "/react.png",
-      "/tailwind.png",
-      "/ts.png",
-      "/node-js.png",
-      "/express.png",
-    ],
-    link: false,
-    twoRepos: false,
-    url: "",
-    urlGithub: "https://github.com/JoelVR17/InventariX",
-    urlGithub2: "",
-  },
-  {
-    src: "/inBuilding.jpeg",
-    title: "Home Task",
-    description:
-      "An online application to manage the projects with their taks. (In Building)",
-    icons: [
-      "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mongodb/mongodb-original.svg",
-      "/react.png",
-      "/tailwind.png",
-      "/ts.png",
-      "/node-js.png",
-      "/express.png",
-    ],
-    link: false,
-    twoRepos: false,
-    url: "",
-    urlGithub: "https://github.com/JoelVR17/Home-Task",
     urlGithub2: "",
   },
 ];
