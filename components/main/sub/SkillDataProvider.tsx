@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
@@ -13,8 +13,14 @@ interface Props {
 }
 
 const SkillDataProvider = ({ src, width, height, index }: Props) => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => {
+    queueMicrotask(() => setMounted(true));
+  }, []);
+
   const { ref, inView } = useInView({
     triggerOnce: true,
+    skip: !mounted,
   });
 
   const imageVariants = {

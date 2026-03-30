@@ -59,10 +59,10 @@ const ProjectCard = ({
                   <svg
                     className="w-8 h-8 mr-1"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     viewBox="0 0 24 24"
                   >
                     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>

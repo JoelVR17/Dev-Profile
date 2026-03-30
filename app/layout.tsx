@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import StartsCanvas from "@/components/main/StakBackground";
+import StartsCanvasClient from "@/components/StartsCanvasClient";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/main/Footer";
 
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
-        <StartsCanvas />
+        <StartsCanvasClient />
         <Navbar />
         {children}
         <Footer />

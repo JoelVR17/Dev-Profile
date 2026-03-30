@@ -51,10 +51,11 @@ const HeroContent = () => {
         </motion.p>
 
         <motion.a
+          href="#projects"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          <a href="#projects">Check out my Projects</a>
+          Check out my Projects
         </motion.a>
       </div>
 
