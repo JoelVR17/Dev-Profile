@@ -2,6 +2,7 @@
 
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
+import HonorsAwards from "@/components/main/HonorsAwards";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
 import Experience from "@/components/main/sub/Experience";
@@ -15,6 +16,7 @@ export default function Home() {
           <Hero />
           <Skills />
           <Experience />
+          <HonorsAwards />
           <Projects />
         </div>
       </main>
