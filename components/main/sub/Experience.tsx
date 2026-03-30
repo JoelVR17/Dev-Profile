@@ -19,7 +19,7 @@ const Experience = () => {
                   Fidélitas University
                 </span>
                 <span className="mt-1 text-gray-500 text-sm">
-                  January 2021 - December 2023
+                  June 2020 - December 2023
                 </span>
               </div>
               <div className="md:flex-grow">
@@ -60,7 +60,7 @@ const Experience = () => {
                   Centro Cultural Costarricense Norteamericano
                 </span>
                 <span className="mt-1 text-gray-500 text-sm">
-                  January 2024 - Present
+                  January 2024 - June 2025
                 </span>
               </div>
               <div className="md:flex-grow">
@@ -96,32 +96,31 @@ const Experience = () => {
             <h1 className="text-[50px] text-white font-bold mt-[30px] text-center mb-5">
               Work Experience
             </h1>
-            {/* WORKS */}
+            {/* Trustless Work */}
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-white">
-                  Rolosa HyJ S.A
+                  Trustless Work
                 </span>
                 <span className="mt-1 text-gray-500 text-sm">
-                  October 2022 - Present
+                  July 2024 - Present
                 </span>
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-white title-font mb-2">
-                  Full Stack Web Developer
+                  Co-Founder & Tech Lead | Frontend Developer | Developer
+                  Experience Engineer
                 </h2>
                 <p className="leading-relaxed">
-                  • Specialist in Website Maintenance and Optimization, Ensuring
-                  User Experience across Multiple Devices and Browsers. <br />
-                  • I'm responsible for identifying, investigating, and fixing
-                  bugs in the code and in the operation of the company's
-                  applications and systems. <br />• Executor of User Experience
-                  (UX/UI) Design, Transforming Concepts into Functional and
-                  Consistent Implementations. <br />• Developer of Web
-                  Interaction Tools and Elements, Enhancing Usability and
-                  Interaction on the Website for Various Platforms
-                  <br />• Develop new functionalities based on client
-                  requirements
+                  • Lead strategic growth, engaging investors and clients,
+                  driving partnerships, and shaping the go-to-market strategy to
+                  scale adoption. <br />• Define product vision, aligning
+                  business goals with technical execution across frontend,
+                  backend, and smart contract layers. <br />
+                  • Build responsive and high-performance interfaces, ensuring
+                  smooth UX, accessibility, and scalability. <br />• Develop
+                  SDKs to abstract integration complexity, enabling faster and
+                  cleaner adoption for developers.
                 </p>
                 <div className="text-purple-400 inline-flex items-center mt-10">
                   Tools
@@ -139,37 +138,31 @@ const Experience = () => {
                   </svg>
                   <div className="mx-10 flex gap-5">
                     <SkillDataProvider
-                      src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg"
+                      src="/next.png"
                       width={33}
                       height={33}
                       index={0}
                     />
                     <SkillDataProvider
-                      src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg"
+                      src="/ts.png"
                       width={33}
                       height={33}
                       index={0}
                     />
                     <SkillDataProvider
-                      src="/js.png"
+                      src="/stellar.svg"
                       width={33}
                       height={33}
                       index={0}
                     />
                     <SkillDataProvider
-                      src="/react.png"
+                      src="/tailwind.png"
                       width={33}
                       height={33}
                       index={0}
                     />
                     <SkillDataProvider
-                      src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/php/php-original.svg"
-                      width={40}
-                      height={40}
-                      index={0}
-                    />
-                    <SkillDataProvider
-                      src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/drupal/drupal-original.svg"
+                      src="/firebase.png"
                       width={33}
                       height={33}
                       index={0}
@@ -178,24 +171,93 @@ const Experience = () => {
                 </div>
               </div>
             </div>
+            {/* GrantFox */}
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-white">
+                  GrantFox
+                </span>
+                <span className="mt-1 text-gray-500 text-sm">
+                  March 2025 - Present
+                </span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-white title-font mb-2">
+                  Founder | Full-Stack Developer
+                </h2>
+                <p className="leading-relaxed">
+                  • Launched and led GrantFox, an OSS hub for contributions and
+                  UX testing bounties before market release. <br />
+                  • Defined product vision, built the core team, and drove early
+                  growth and partnerships. <br />• Built and maintained core
+                  features across the stack, iterating rapidly based on user and
+                  contributor feedback.
+                </p>
+                <div className="text-purple-400 inline-flex items-center mt-10">
+                  Tools
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                  <div className="mx-10 flex gap-5">
+                    <SkillDataProvider
+                      src="/next.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/node-js.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/supabase.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/ts.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Only Dust */}
             <div className="py-8 flex flex-wrap md:flex-nowrap">
               <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                 <span className="font-semibold title-font text-white">
                   Only Dust
                 </span>
                 <span className="mt-1 text-gray-500 text-sm">
-                  June 2024 - Present
+                  June 2024 - October 2025
                 </span>
               </div>
               <div className="md:flex-grow">
                 <h2 className="text-2xl font-medium text-white title-font mb-2">
-                  Contributor in Open Source
+                  Maintainer & Open Source Contributor
                 </h2>
                 <p className="leading-relaxed">
-                  • As an open-source contributor at Only Dust, I resolve
-                  assigned issues related to the development of applications in
-                  Next.js. <br />• I implement Web3 functionalities, integrating
-                  decentralized features and improving the user experience.
+                  • Managed contributions and reviewed code through structured
+                  workflows to ensure quality and consistency across projects.{" "}
+                  <br />
+                  • Implemented new features and resolved issues in Next.js
+                  applications, including Web3 integrations. <br />• Applied
+                  code standards and review processes to improve maintainability
+                  and collaboration.
                 </p>
                 <div className="text-purple-400 inline-flex items-center mt-10">
                   Tools
@@ -226,6 +288,126 @@ const Experience = () => {
                     />
                     <SkillDataProvider
                       src="/tailwind.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Agora Partnerships */}
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-white">
+                  Agora Partnerships
+                </span>
+                <span className="mt-1 text-gray-500 text-sm">
+                  September 2024 - December 2024
+                </span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-white title-font mb-2">
+                  Frontend Semi Senior
+                </h2>
+                <p className="leading-relaxed">
+                  • Developed React-based web applications with a focus on
+                  performance and scalability. <br />• Designed responsive and
+                  user-centric interfaces using Figma. <br />• Collaborated
+                  effectively within teams, ensuring clear communication and
+                  timely delivery.
+                </p>
+                <div className="text-purple-400 inline-flex items-center mt-10">
+                  Tools
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                  <div className="mx-10 flex gap-5">
+                    <SkillDataProvider
+                      src="/react.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/ts.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/figma.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ROLOSA */}
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-white">
+                  ROLOSA
+                </span>
+                <span className="mt-1 text-gray-500 text-sm">
+                  October 2022 - July 2024
+                </span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-white title-font mb-2">
+                  Full-Stack Developer
+                </h2>
+                <p className="leading-relaxed">
+                  • Developed new features based on client requirements. <br />•
+                  Integrated APIs and external services to enhance platform
+                  functionality.
+                </p>
+                <div className="text-purple-400 inline-flex items-center mt-10">
+                  Tools
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                  <div className="mx-10 flex gap-5">
+                    <SkillDataProvider
+                      src="/react.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="/js.png"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/html5/html5-original.svg"
+                      width={33}
+                      height={33}
+                      index={0}
+                    />
+                    <SkillDataProvider
+                      src="https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/css3/css3-original.svg"
                       width={33}
                       height={33}
                       index={0}

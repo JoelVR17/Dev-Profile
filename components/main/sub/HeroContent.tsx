@@ -46,8 +46,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m Joel Vargas, a passionate Full Stack Software Engineer
-          dedicated to delivering exceptional project experiences.
+          Software Developer with 3+ years of experience building web and
+          distributed applications. Experienced building startups in blockchain
+          ecosystems, with recognized industry contributions.
         </motion.p>
 
         <motion.a

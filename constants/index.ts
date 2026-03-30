@@ -31,15 +31,9 @@ export const Skill_data = [
   },
   {
     skill_name: "Supabase",
-    Image: "/supabase.png", // aqui
+    Image: "/supabase.png",
     width: 55,
     height: 55,
-  },
-  {
-    skill_name: "My SQL",
-    Image: "/mysql.png",
-    width: 70,
-    height: 70,
   },
 ];
 
@@ -47,7 +41,7 @@ export const Frontend_skill = [
   
   {
     skill_name: "Shadcn UI",
-    Image: "/mui.png", // aqui
+    Image: "/shadcn_ui.png",
     width: 80,
     height: 80,
   },
@@ -74,7 +68,7 @@ export const Frontend_skill = [
 export const Backend_skill = [
   {
     skill_name: "Nest.js",
-    Image: "/node-js.png", // aqui
+    Image: "/nest_js.png",
     width: 80,
     height: 80,
   },
@@ -101,7 +95,7 @@ export const Full_stack = [
   },
   {
     skill_name: "Stellar",
-    Image: "/stellar.png", // aqui
+    Image: "/stellar.svg",
     width: 80,
     height: 80,
   }
@@ -112,19 +106,6 @@ export const Other_skill = [
     skill_name: "Git",
     Image:
       "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/git/git-original.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Jira",
-    Image:
-      "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/jira/jira-plain-wordmark.svg",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Cloudflare",
-    Image: "/cloudflare.png", // aqui
     width: 80,
     height: 80,
   },
